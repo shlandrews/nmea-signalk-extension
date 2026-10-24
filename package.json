@@ -1,0 +1,16 @@
+{
+  "name": "marine-gps-standalone",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs tests/*.test.cjs",
+    "test:browser": "node tests/extension-smoke.cjs",
+    "package": "node scripts/package.mjs"
+  },
+  "devDependencies": {
+    "fflate": "^0.8.3",
+    "playwright": "^1.56.0",
+    "ws": "^8.18.0"
+  }
+}
